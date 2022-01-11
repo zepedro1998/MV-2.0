@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    box-sizing:border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.div_titulo{
+    background-image:radial-gradient(circle, rgb(141, 201, 3) 30%, rgba(2,0,36,0) 100%, rgb(0, 255, 106) 100%);;
+    top: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: -1%;
+    border-radius: 10%;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.footer_index{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: black;
+	text-align: center;
+	font-weight: 200;
+	padding-top:5%;
+    background: transparent;
+}
+
+.link_insta{
+    float: left;
+    margin-left: 20%;
+	
+}
+
+.link_youtube{
+    float: left;
+    margin-left: 30%;
+}
+
+.link_link{
+    float: left;
+    margin-left: 30%;
+}
+
+.flip-card1 {
+	background-color: transparent;
+	width: 80%;
+	height: 300px;
+	perspective: 1000px;
+    margin-top: -1.5%;
+    margin-left: 10%;
+}
+
+.flip-card-inner1 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+}
+
+.flip-card1:hover .flip-card-inner1 {
+	transform: rotateY(-180deg);
+}
+
+.flip-card-front1, .flip-card-back1 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.flip-card-front1 {
+	color: black;
+}
+
+.flip-card-back1 {
+	background-image: linear-gradient( rgb(141, 201, 3) 30%, rgba(2,0,36,0) 100%, rgb(0, 255, 106) 100%);
+	color: black;
+	transform: rotateY(180deg);
+}
+.para_flip{
+    background-color:rgb(141, 201, 3) ;
+}
+
+.img_div3{
+	background: url("/Media/Imagens/unnamed.jpg");
+	
+}
+
+#horizontal {
+    position: fixed;
+	background: transparent;
+    width: 50px;
+    left: 0;
+    top: 225px;
+}
+
+.img_div3{
+	background: transparent;
+}
